@@ -62,7 +62,7 @@ class student:
     def getCourses(self,courseList):
         self.courses = courseList
         
-    def get Grades(self,grades):
+    def getGrades(self,grades):
         self.grades = grades
 
 def main():

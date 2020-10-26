@@ -41,8 +41,8 @@ class student:
 
     def average(self):
         sum = 0
-        numGrades = len(grades)
-        for i in grades:
+        numGrades = len(self.grades)
+        for i in self.grades:
           sum = sum + i
         average = sum / numGrades
         return average

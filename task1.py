@@ -36,7 +36,7 @@ class student:
         self.studentNumber = studentNumber
         self.grade = grade
 
-    def __del__():
+    def __del__(self):
         pass
 
     def average(self):
